@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.zhaw.pm2.racetrack.GameTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2022-03-25T18:40:31" hostname="THOFUS" time="0.114">
+  <properties/>
+  <testcase name="testGetNoWinner()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.001"/>
+  <testcase name="testCarsCrashingComingFromLeftToRightFinishLine()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.003"/>
+  <testcase name="testGetWinnerOverFinishLine()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.002"/>
+  <testcase name="testSetNewTrack()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.001"/>
+  <testcase name="testGetWinnerTroughCrashingAllCarsButOne()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.003"/>
+  <testcase name="testGetWinnerOverFinishLineRight()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.003"/>
+  <testcase name="testGetCrashedCar()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.001"/>
+  <testcase name="testNoCrashAfterFinishLine()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.002"/>
+  <testcase name="testCarCrashingWithCrashedCar()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.001"/>
+  <testcase name="testCarCrashOutOfBounds()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.002"/>
+  <testcase name="testCarsCrashingComingDownFinishLine()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.003"/>
+  <testcase name="testCarsCrashingComingUpFinishLine()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.002"/>
+  <testcase name="testGetCarPosition()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.003"/>
+  <testcase name="testSwitchingCars()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.001"/>
+  <testcase name="testCarsCrashingComingFromRightToLeftFinishLine()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.002"/>
+  <testcase name="testGameStillRunningAfterInitialisation()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.001"/>
+  <testcase name="testCarCrashingWithOtherCar()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.002"/>
+  <testcase name="testSwitchToNextCarSkippingCrashedCar()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.004"/>
+  <testcase name="testCarCrashedWithWall()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.001"/>
+  <testcase name="testGetWinnerOverFinishLineUp()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.002"/>
+  <testcase name="testGetWinnerOverFinishLineDown()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.002"/>
+  <testcase name="testGetWinnerOverFinishLineLeft()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.002"/>
+  <testcase name="testGetWinner()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.0"/>
+  <testcase name="testCarNextPosition()" classname="ch.zhaw.pm2.racetrack.GameTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

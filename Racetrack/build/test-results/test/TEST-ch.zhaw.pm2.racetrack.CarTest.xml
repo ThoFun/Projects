@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.zhaw.pm2.racetrack.CarTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2022-03-25T18:40:31" hostname="THOFUS" time="0.109">
+  <properties/>
+  <testcase name="testSetCarPosition()" classname="ch.zhaw.pm2.racetrack.CarTest" time="0.002"/>
+  <testcase name="testCarVelocity()" classname="ch.zhaw.pm2.racetrack.CarTest" time="0.005"/>
+  <testcase name="testDirectionsMiddleRight()" classname="ch.zhaw.pm2.racetrack.CarTest" time="0.001"/>
+  <testcase name="testCarID()" classname="ch.zhaw.pm2.racetrack.CarTest" time="0.003"/>
+  <testcase name="testCrash()" classname="ch.zhaw.pm2.racetrack.CarTest" time="0.005"/>
+  <testcase name="testToStringGetID()" classname="ch.zhaw.pm2.racetrack.CarTest" time="0.003"/>
+  <testcase name="testDirectionsDown()" classname="ch.zhaw.pm2.racetrack.CarTest" time="0.001"/>
+  <testcase name="testSetMoveStrategy()" classname="ch.zhaw.pm2.racetrack.CarTest" time="0.009"/>
+  <testcase name="testCarIDOutOfBounds()" classname="ch.zhaw.pm2.racetrack.CarTest" time="0.005"/>
+  <testcase name="testToStringCrashIndicator()" classname="ch.zhaw.pm2.racetrack.CarTest" time="0.001"/>
+  <testcase name="testDirectionsDownRight()" classname="ch.zhaw.pm2.racetrack.CarTest" time="0.001"/>
+  <testcase name="testDirectionsMiddle()" classname="ch.zhaw.pm2.racetrack.CarTest" time="0.001"/>
+  <testcase name="testDirectionUpRight()" classname="ch.zhaw.pm2.racetrack.CarTest" time="0.001"/>
+  <testcase name="testDirectionsMiddleLeft()" classname="ch.zhaw.pm2.racetrack.CarTest" time="0.0"/>
+  <testcase name="testDirectionUpLeft()" classname="ch.zhaw.pm2.racetrack.CarTest" time="0.001"/>
+  <testcase name="testDirectionsDownLeft()" classname="ch.zhaw.pm2.racetrack.CarTest" time="0.001"/>
+  <testcase name="testCarAccelerationNegative()" classname="ch.zhaw.pm2.racetrack.CarTest" time="0.001"/>
+  <testcase name="testDirectionUp()" classname="ch.zhaw.pm2.racetrack.CarTest" time="0.002"/>
+  <testcase name="testCarAcceleration()" classname="ch.zhaw.pm2.racetrack.CarTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,20 @@
+
+@	java:S106I"+Replace this use of System.out by a logger.(ºšš­
+@	java:S106K"+Replace this use of System.out by a logger.(ÈƒÏ«
+@	java:S106P"+Replace this use of System.out by a logger.(îîø°
+@	java:S106R"+Replace this use of System.out by a logger.(÷–¦
+E	java:S106T"+Replace this use of System.err by a logger.(˜Şşÿÿÿÿ
+E	java:S106V"+Replace this use of System.out by a logger.(ÿ¯Ì‚úÿÿÿÿ
+E	java:S106X"+Replace this use of System.err by a logger.(˜Şşÿÿÿÿ
+@	java:S106Z"+Replace this use of System.err by a logger.(î¨Ç£
+E	java:S106\"+Replace this use of System.err by a logger.(‡¯¶Œúÿÿÿÿ
+@	java:S106`"+Replace this use of System.out by a logger.(ö·é
+2
+java:S1116d"Remove this empty statement.(ƒ™Ü˜
+E	java:S106y"+Replace this use of System.err by a logger.(ˆÏàúøÿÿÿÿ
+F	java:S106‚"+Replace this use of System.out by a logger.(© œùÿÿÿÿ
+F	java:S106„"+Replace this use of System.out by a logger.(‘ş½ñüÿÿÿÿ
+F	java:S106†"+Replace this use of System.out by a logger.(ñ–‘Óøÿÿÿÿ
+A	java:S106ˆ"+Replace this use of System.err by a logger.(Øá¢
+F	java:S106Š"+Replace this use of System.out by a logger.(‰ˆ¾ùÿÿÿÿ
+F	java:S106œ"+Replace this use of System.err by a logger.(“µÇ§ûÿÿÿÿ
