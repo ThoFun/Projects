@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.zhaw.it.pm3.ui.ContractController">
+   <children>
+      <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#onGoBack" text="Zurück">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <VBox>
+                     <children>
+                        <Label text="Inserat">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label text="Vorname">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label text="Name">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="89.0" text="Wohnort">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="52.0" text="Preis">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="73.0" text="Bewertung">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox>
+                     <children>
+                        <Label fx:id="advertisementTitleLabel">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="serviceProviderFirstNameLabel">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="serviceProviderNameLabel">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="serviceProviderLocationLabel" layoutX="10.0" layoutY="52.0">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="serviceProviderPriceLabel" layoutX="10.0" layoutY="88.0">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="serviceProviderRatingLabel" layoutX="10.0" layoutY="116.0">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </VBox>
+               </children>
+               <opaqueInsets>
+                  <Insets top="10.0" />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </HBox>
+            <Label text="Beschreibung">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="descriptionTextArea" prefHeight="200.0" prefWidth="200.0">
+               <VBox.margin>
+                  <Insets bottom="30.0" />
+               </VBox.margin>
+            </TextArea>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="acceptOfferLabel" text="Möchten Sie den Auftrag annehmen?">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Button fx:id="contractButton" contentDisplay="BOTTOM" mnemonicParsing="false" onAction="#executeButton" text="Annehmen">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>

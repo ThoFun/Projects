@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.zhaw.it.pm3.ui.OfferController">
+   <children>
+      <VBox prefHeight="600.0" prefWidth="500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="returnButton" mnemonicParsing="false" onAction="#onGoBack" text="Zurück">
+               <VBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <TextField fx:id="titleField" promptText="Titel">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="10.0" right="10.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <TextArea fx:id="descriptionField" promptText="Detailierte Beschreibung">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextArea>
+            <HBox alignment="CENTER_LEFT">
+               <children>
+                  <TextField fx:id="surnameField" promptText="Name">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="firstnameField" promptText="Vorname">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT">
+               <children>
+                  <TextField fx:id="streetAndNrField" promptText="Strasse + Nr.">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="postalCodeField" promptText="Postleitzahl">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT">
+               <children>
+                  <TextField fx:id="priceField" promptText="Preis CHF">
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="10.0" right="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <Button fx:id="sendButton" alignment="TOP_RIGHT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onSubmit" text="Senden">
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

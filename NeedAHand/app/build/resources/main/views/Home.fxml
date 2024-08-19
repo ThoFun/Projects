@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.zhaw.it.pm3.ui.HomeCustomer">
+   <children>
+      <Button fx:id="mainButton" layoutY="38.0" mnemonicParsing="false" onAction="#onMainButtonAction" prefHeight="38.0" prefWidth="400.0" text="Erfasse ein Inserat" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="38.0" />
+      <Button fx:id="secondButton" layoutX="50.0" layoutY="115.0" mnemonicParsing="false" onAction="#onCreateEmergencyAd" prefHeight="38.0" prefWidth="400.0" text="Erfasse ein Notfall-Inserat" textFill="#e10b0b" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" />
+      <Button layoutX="50.0" layoutY="191.0" mnemonicParsing="false" onAction="#onGoToUserProfile" prefHeight="38.0" prefWidth="400.0" text="Benutzerprofil" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="191.0" />
+   </children>
+</AnchorPane>

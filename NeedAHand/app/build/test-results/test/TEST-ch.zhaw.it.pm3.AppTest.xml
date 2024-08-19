@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.zhaw.it.pm3.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-06T13:53:49" hostname="DESKTOP-V1TD23L" time="0.014">
+  <properties/>
+  <testcase name="appHasAGreeting()" classname="ch.zhaw.it.pm3.AppTest" time="0.014"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

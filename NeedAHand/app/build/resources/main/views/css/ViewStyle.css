@@ -1,0 +1,145 @@
+.root {
+    /*This applies styling for the root node*/
+    -fx-background-color: #FFFFFF;
+}
+
+.label {
+    /*This applies styling for the label node*/
+    -fx-background-radius: 10px;
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5b3e31;
+}
+
+.button {
+    /*This applies styling for the button node*/
+    -fx-background-color: #cde0c9;
+    -fx-border-radius: 20px;
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5b3e31;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#6B4713, #6B2723);
+    -fx-text-fill: #FFFFFF;
+}
+
+.text-field {
+    /*This applies styling for the text field node*/
+    -fx-background-radius: 10px;
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #735338;
+    -fx-border-radius: 10px;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5b3e31;
+}
+
+.text-area {
+    /*This applies styling for the text area node*/
+    -fx-background-radius: 10px;
+    -fx-background-color: #FFFFFF;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5b3e31;
+}
+
+.text-area .content {
+    -fx-background-radius: 10px;
+    -fx-border-color: #735338;
+    -fx-border-radius: 10px;
+}
+
+.check-box {
+    -fx-background-radius: 10px;
+    -fx-background-color: #FFFFFF;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5b3e31;
+}
+
+.date-picker {
+    -fx-background-radius: 10px;
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #FFFFFF;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5b3e31;
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: #cde0c9;
+    -fx-border-color: #FFFFFF;
+}
+
+.date-picker .text-field {
+    -fx-background-radius: 10px;
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #5b3e31;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5b3e31;
+}
+
+.date-picker .arrow-button:hover {
+    -fx-background-color: linear-gradient(#6B4713, #6B2723);
+    -fx-text-fill: #FFFFFF;
+}
+
+.combo-box {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10px;
+    -fx-border-color: #735338;
+    -fx-border-radius: 10px;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.combo-box .text-field{
+    -fx-background-radius: 10px;
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #FFFFFF;
+    -fx-text-fill: #5b3e31;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #cde0c9;
+    -fx-background-radius: 10px;
+}
+
+.combo-box .arrow-button {
+    -fx-background-radius: 10px;
+    -fx-background-color: #cde0c9;
+}
+
+.combo-box .arrow-button:hover {
+    -fx-background-color: linear-gradient(#6B4713, #6B2723);
+    -fx-text-fill: #FFFFFF;
+}
+
+.list-view {
+    -fx-background-radius: 10px;
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #5b3e31;
+    -fx-border-radius: 10px;
+}
+
+.list-view .list-cell {
+    -fx-background-radius: 10px;
+    -fx-background-color: #FFFFFF;
+    -fx-border-radius: 10px;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5b3e31;
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: #cde0c9;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+.list-view .list-cell:empty {
+    -fx-background-color: transparent;
+}
