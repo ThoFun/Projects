@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.zhaw.pm2.checkit.client.NewBookingController">
+   <children>
+      <VBox alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="New booking">
+               <font>
+                  <Font size="17.0" />
+               </font>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Label>
+            <HBox>
+               <children>
+                  <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="10.0">
+                     <children>
+                        <HBox spacing="10.0">
+                           <children>
+                              <Label text="First name" />
+                              <TextField fx:id="firstname" prefWidth="300.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="5.0" right="5.0" top="5.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox spacing="10.0">
+                           <children>
+                              <Label text="Last name" />
+                              <TextField fx:id="lastname" prefWidth="300.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="5.0" right="5.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox spacing="10.0">
+                           <children>
+                              <Label text="Mail address:" />
+                              <TextField fx:id="mailAddress" prefWidth="285.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="5.0" right="5.0" />
+                           </VBox.margin>
+                        </HBox>
+                     </children>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="5.0" />
+                     </padding>
+                  </VBox>
+                  <VBox alignment="CENTER_LEFT" prefWidth="400.0" spacing="10.0">
+                     <children>
+                        <HBox alignment="TOP_RIGHT" spacing="10.0">
+                           <padding>
+                              <Insets bottom="5.0" right="5.0" />
+                           </padding>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <children>
+                              <Label text="Amount of nights staying:" />
+                              <Spinner fx:id="amountOfNight" editable="true" />
+                           </children>
+                        </HBox>
+                        <HBox alignment="TOP_RIGHT" prefWidth="200.0" spacing="10.0">
+                           <children>
+                              <Label text="Start time:" />
+                              <DatePicker fx:id="starttime" editable="false" prefWidth="300.0" />
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" right="5.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="TOP_RIGHT" prefWidth="200.0" spacing="10.0">
+                           <children>
+                              <Label text="End time:" />
+                              <DatePicker fx:id="endtime" editable="false" onAction="#selectEndTime" prefWidth="300.0" />
+                           </children>
+                           <padding>
+                              <Insets right="5.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="TOP_RIGHT" prefWidth="200.0" spacing="10.0">
+                           <children>
+                              <Button alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#cancelDialog" text="Cancel" />
+                              <Button alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#acceptDialog" text="Book" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                     </children>
+                     <padding>
+                        <Insets right="10.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </HBox>
+            <VBox>
+               <children>
+                  <Label fx:id="errorChosenDate" alignment="TOP_LEFT" prefHeight="25.0" textFill="#d50a0a">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

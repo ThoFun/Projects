@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.zhaw.pm2.checkit.ServerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-05-13T20:07:45" hostname="THOFUS" time="0.124">
+  <properties/>
+  <testcase name="addAlreadyBookedNewBookingTest()" classname="ch.zhaw.pm2.checkit.ServerTest" time="0.098"/>
+  <testcase name="checkOutTest()" classname="ch.zhaw.pm2.checkit.ServerTest" time="0.002"/>
+  <testcase name="addNewBookingTest()" classname="ch.zhaw.pm2.checkit.ServerTest" time="0.004"/>
+  <testcase name="getAvailableTimeSlotsTest()" classname="ch.zhaw.pm2.checkit.ServerTest" time="0.003"/>
+  <testcase name="getAvailableTimeSlotsEdgeCasesTest()" classname="ch.zhaw.pm2.checkit.ServerTest" time="0.003"/>
+  <testcase name="checkInTest()" classname="ch.zhaw.pm2.checkit.ServerTest" time="0.003"/>
+  <testcase name="getAvailableTimeSlotsFreeTodayCaseTest()" classname="ch.zhaw.pm2.checkit.ServerTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

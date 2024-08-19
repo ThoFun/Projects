@@ -1,0 +1,3 @@
+# Design documentation
+The client follows the mvc-pattern. Currently we assume there is just one room available, to minimize the complexity. All the data is saved on the server side. Currently the server is static only because we don't have a decoupled client-server communication. Thus the ClientConnectionHandler just calls static methods of the Server, to simulate a client-server connection. The Server should prevent race-conditions, but it's not tested yet because we only worked with one running gui.
+![KlassendiagrammCheckIt drawio](https://github.zhaw.ch/storage/user/4858/files/9ffd1e68-0cee-4348-b7a9-e247beb56c82)

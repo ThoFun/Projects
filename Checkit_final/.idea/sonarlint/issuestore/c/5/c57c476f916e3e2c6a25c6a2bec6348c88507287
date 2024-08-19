@@ -1,0 +1,10 @@
+
+D
+java:S1604"(Make this anonymous inner class a lambda(æ Ø¬ÿÿÿÿÿ
+W	java:S110 "<This class has 8 parents which is greater than 5 authorized.(°—æÄşÿÿÿÿ
+y	java:S116"_Rename this field "MIN_AMOUNT_OF_NIGHTS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õêßºÿÿÿÿÿ
+t	java:S116"_Rename this field "MAX_AMOUNT_OF_NIGHTS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æä„Ó
+<
+java:S1170"!Make this final field static too.(Õêßºÿÿÿÿÿ
+7
+java:S1170"!Make this final field static too.(æä„Ó
